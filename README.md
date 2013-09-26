@@ -2,6 +2,10 @@
 
 **DL2SPARQL-DL is an Java API that converts DL queries into SPARQL-DL queries**
 
+### Query Interface
+We have developed a query interface that implements the DL2SPARQL-DL API and demonstrates how it can be used.
+http://dl2sparqldl.herokuapp.com/
+
 ### How it works
 DL2SPARQL-DL receives a conjunction (⊓) of axioms in DL, separates them into atoms (via conjunctions) and performs the parsing of each element for the SPARQL-DL Query Patterns. 
 
